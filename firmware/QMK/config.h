@@ -15,7 +15,7 @@
 #define MATRIX_COLS 8
 
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCING_DELAY 5
+#define DEBOUNCE 5
 
 // /* prevent stuck modifiers */
 // #define PREVENT_STUCK_MODIFIERS
@@ -37,23 +37,39 @@
 #define RGBLIGHT_LAYERS
 #endif
 
-/* {UP, LEFT, CENTR, RIGHT, DOWN, BTN1, BTN2, BTN3}  */
+/* {BTN1, BTN2, BTN3, STICK_BTN}  */
 #define DIRECT_PINS                        \
     {                                      \
         {                                  \
-            B1, B3, F7, B2, B6, D4, D0, D1 \
+            D4, D0, D1, F7 \
         }                                  \
     }
-#define UNUSED_PINS
+
 
 /* Joystick */
-#define JOYSTICK_BUTTON_COUNT 8
+#define JOYSTICK_BUTTON_COUNT 4
 #define JOYSTICK_AXES_COUNT 2
 
-#define COMBO_COUNT 5
+
+/* Joystick config */
+#define ANALOG_JOYSTICK_X_AXIS_PIN F6
+#define ANALOG_JOYSTICK_Y_AXIS_PIN F5
+// #define ANALOG_JOYSTICK_CLICK_PIN F7
+
+#define ANALOG_JOYSTICK_AXIS_MIN 0
+#define ANALOG_JOYSTICK_AXIS_MAX 1023
+
+#define ANALOG_JOYSTICK_READ_INTERVAL 10
+
+#define POINTING_DEVICE_INVERT_X
+
+/* Cursor speed */
+#define ANALOG_JOYSTICK_SPEED_MAX 5
+#define ANALOG_JOYSTICK_SPEED_REGULATOR 30
 
 // #define TAP_CODE_DELAY 10
 #define TAPPING_TERM 180
 #define PERMISSIVE_HOLD
 
+#define COMBO_COUNT 5
 #endif
