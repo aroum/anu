@@ -1,0 +1,11 @@
+{
+  "keyboard_name": "Anu",
+  "manufacturer": "aroum",
+  "url": "",
+  "maintainer": "aroum",
+  "usb": {
+    "vid": "0x4853",
+    "pid": "0x0701",
+    "device_version": "0.3.1"
+  }
+}

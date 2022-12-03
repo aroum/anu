@@ -3,12 +3,6 @@
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID 0x4541
-#define PRODUCT_ID 0x0003
-#define DEVICE_VER 0x0001
-#define MANUFACTURER aroum
-#define PRODUCT Anu
 
 /* key matrix size */
 #define MATRIX_ROWS 1
@@ -47,8 +41,10 @@
 
 
 /* Joystick */
-#define JOYSTICK_BUTTON_COUNT 4
+// #define JOYSTICK_BUTTON_COUNT 4
 #define JOYSTICK_AXES_COUNT 2
+#define JOYSTICK_BUTTON_COUNT 1
+#define JOYSTICK_AXIS_RESOLUTION 8
 
 
 /* Joystick config */
@@ -62,6 +58,10 @@
 #define ANALOG_JOYSTICK_READ_INTERVAL 10
 
 #define POINTING_DEVICE_INVERT_X
+
+#define JOYSTICK_AXIS_COUNT 2
+#define JOYSTICK_BUTTON_COUNT 1
+#define JOYSTICK_AXIS_RESOLUTION 8
 
 /* Cursor speed */
 #define ANALOG_JOYSTICK_SPEED_MAX 5
