@@ -43,6 +43,6 @@ SRC += analog.c
 
 COMBO_ENABLE = yes 
 
-CONSOLE_ENABLE = yes 
+CONSOLE_ENABLE = no 
 
 
