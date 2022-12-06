@@ -59,8 +59,8 @@ layer_state_t layer_state_set_user(layer_state_t state)
 int timer = 0;
 int delay = 200;
 
-#include "print.h"
-void keyboard_post_init_user(void)
+// #include "print.h"
+// void keyboard_post_init_user(void)
 // {
 //     // Customise these values to desired behaviour
 //     debug_enable = true;
