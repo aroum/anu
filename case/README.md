@@ -8,6 +8,8 @@ The pcb is fixed by friction or double-sided tape.
 # BOM
 * magnets size: 7x2mm (3-5 pcs)
 * bumpons size: 5x2mm (8 pcs)
+* nuts size: m2 (4 pcs)
+* screws size: m2x4 (4 pcs)
 
 
 # Print options:

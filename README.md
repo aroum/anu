@@ -14,6 +14,7 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 * Wireless(optional)
 * Per switch RGB(optional)
 * Power switch for wireless controllers(optional)
+* 100x100 mm panel pcb
 
 # Firmware
 
@@ -40,7 +41,8 @@ Other configs using the analog stick [1](https://blog.ffff.lt/posts/joystick-alg
 | [SMD button 3x4x2mm](https://aliexpress.ru/item/1005003812819985.html) |        1 | for reset                          |
 | [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          |        1 | Power switch  (wireless only)      |
 | [301230](https://aliexpress.ru/item/32732458079.html)                  |        1 | Battery  (wireless only)           |
-
+| [m2 nuts](https://aliexpress.ru/item/1005003114659036.html)            |        4 | for case                           |
+| [m2x4 screws](https://aliexpress.ru/item/1005004494509456.html)        |        4 | for case                           |
 
 
 [IBOM](https://htmlpreview.github.io/?https://github.com/aroum/anu/blob/master/pcb/ibom/ibom.html)
