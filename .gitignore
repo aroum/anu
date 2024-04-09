@@ -19,20 +19,18 @@ desktop.ini
 fp-info-cache
 fp-lib-table
 sym-lib-table
+*.lck
 
 *.net
 *.dsn
 *.ses
 
-case/
-pcb/shape/sources/
+case/sources/
+pcb/shape/
 pcb/anu_lib/
 pcb/gerber/
 pcb/logo/
-
-*pcb
-*case
-
+pcb/production
 
 
 Devlog.md
