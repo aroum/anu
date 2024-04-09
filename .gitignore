@@ -30,7 +30,8 @@ pcb/shape/
 pcb/anu_lib/
 pcb/gerber/
 pcb/logo/
-pcb/production
+pcb/production/
+pcb/anu-backups/
 
 
 Devlog.md
