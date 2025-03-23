@@ -1,4 +1,4 @@
-#Anu
+# Anu
 
 [Anu](https://en.wikipedia.org/wiki/Anu) - compact stick mouse.
 
@@ -26,6 +26,8 @@ You can use the [threeboard layout](https://github.com/taylorconor/threeboard) t
 
 Other configs using the analog stick [1](https://blog.ffff.lt/posts/joystick-algorithms/) & [2](https://github.com/CarrasTec/JoystickQMK/tree/main/macrokrs).
 
+Work on ZMK support is also [in progress](https://github.com/aroum/zmk-anu/).
+
 # BOM
 
 | Item                                                                   | Quantity | Remarks                            |
@@ -33,10 +35,10 @@ Other configs using the analog stick [1](https://blog.ffff.lt/posts/joystick-alg
 | [proMicro](https://aliexpress.ru/item/32840365436.html)                |        1 | or any other compatible controller |
 | [Kailh Choc V1](https://aliexpress.ru/item/32959996455.html)           |        3  switches                            |
 | [FJ08K-S](https://aliexpress.ru/item/1005006435837883.html) or [FJ08K](https://aliexpress.ru/item/32979957864.html)    |       1 | analog stick. FJ08K-S has an additional button  |
-| [Keycaps](https://aliexpress.ru/item/33026798318.html)                 |       10 | 1U                                 |
-| [YS-SK6812MINI-E](https://aliexpress.ru/item/4000475685852.html)       |       10 | RGB leds                           |
+| [Keycaps](https://aliexpress.ru/item/33026798318.html)                 |       3 | 1U                                 |
+| [YS-SK6812MINI-E](https://aliexpress.ru/item/4000475685852.html)       |       3 | RGB leds                           |
 | [Magnets](https://aliexpress.ru/item/1005002757445161.html)            |      3-5 | disc 7x2 mm (for case)             |
-| [Bumpon](https://aliexpress.ru/item/4001188580018.html)                |        7 | 5x2 mm                             |
+| [Bumpon](https://aliexpress.ru/item/4001188580018.html)                |        8 | 5x2 mm                             |
 | [Sockets PH3.5](https://aliexpress.ru/item/32899635835.html)           |     12x2 | for controller                     |
 | [SMD button 3x4x2mm](https://aliexpress.ru/item/1005003812819985.html) |        1 | for reset                          |
 | [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          |        1 | Power switch  (wireless only)      |
